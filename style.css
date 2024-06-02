@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #004466;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #267ABF;
+}
+
+.content {
+    width: 80%;
+    background-color: #004466;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+.main-image {
+    margin: 20px 0;
+}
+
+.response-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.response-image {
+    background-color: #3399FF;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.response-image img {
+    max-width: 100%;
+}
+
+.box{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box img{
+    max-width: 400px;
+    max-height: 800px;
+}
+
+
+
+
+/* Agregado para arreglar el index */
+
+#blog h3, h4{
+    text-align: center;
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#blog article{
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px ;
+}
+
+/* Estos son los estilos para el footer */
+
+footer .contenedor {
+    display: flex;
+    flex-wrap:wrap;
+    padding-bottom: 25px;
+
+}
+.copy {
+    font-size: 20px;
+    color: #333;
+}
+
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contenedor-video{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  esto es para que se acomode el footer al tamaño de la tabla */
+
+@media (min-width:768px) {
+    .sociales{
+        width: auto;
+    }}
+
+    /*  esta es la primera parte del proyecto donde trabajo lo del menu */
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#bienvenidos{
+    text-align: center;
+}
+
+#bienvenidos .hola{
+    font-size:  25px;
+    
+}
+
+#bienvenidos .hobis{
+    text-align: left;
+
+}
+.hobis h2{
+    font-size: 25px;
+}
+
+
+.hobis ul {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.hobis p{
+    font-size: 20px;
+    padding: 15px;
+
+}
