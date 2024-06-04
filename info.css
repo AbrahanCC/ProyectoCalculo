@@ -1,0 +1,28 @@
+#info {
+    background-color: #005187;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+
+    #info .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    
+    .info-personajes {
+        margin: 20px;
+    
+    }
+    
+    .info-personajes img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50% ;
+        border: 5px solid #ffe;
+        
+    
+    }

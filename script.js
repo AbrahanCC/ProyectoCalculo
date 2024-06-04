@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { imagen: 'imagenes/EcuFac/EJ-1/funcion1.jpg', opciones: ['imagenes/EcuFac/EJ-1/RES-A.jpg', 'imagenes/EcuFac/EJ-1/RES-B.jpg', 'imagenes/EcuFac/EJ-1/RES-C.jpg'], correcta: 1 },
         { imagen: 'imagenes/EcuFac/EJ-2/funcion2facil.jpg', opciones: ['imagenes/EcuFac/EJ-2/RES-A.jpg', 'imagenes/EcuFac/EJ-2/RES-B.jpg', 'imagenes/EcuFac/EJ-2/RES-C.jpg'], correcta: 1 },
         { imagen: 'imagenes/EcuFac/EJ-3/funcion3.jpg', opciones: ['imagenes/EcuFac/EJ-3/RES-A.jpg', 'imagenes/EcuFac/EJ-3/RES-B.jpg', 'imagenes/EcuFac/EJ-3/RES-C.jpg'], correcta: 1 },
-        { imagen: 'imagenes/EcuFac/EJ-4/funcionno4.jpg', opciones: ['imagenes/EcuFac/EJ-4/RES-A.jpg', 'imagenes/EcuFac/EJ-4/RES-A.jpg', 'imagenes/EcuFac/EJ-4/RES-A.jpg'], correcta: 1 },
-        { imagen: 'imagenes/EcuFac/EJ-5/funcion5.jpg', opciones: ['imagenes/EcuFac/EJ-5/RES-A.jpg', 'imagenes/EcuFac/EJ-5/RES-A.jpg', 'imagenes/EcuFac/EJ-5/RES-A.jpg'], correcta: 1 }
+        { imagen: 'imagenes/EcuFac/EJ-4/funcionno4.jpg', opciones: ['imagenes/EcuFac/EJ-4/RES-A.jpg', 'imagenes/EcuFac/EJ-4/RES-B.jpg', 'imagenes/EcuFac/EJ-4/RES-C.jpg'], correcta: 1 },
+        { imagen: 'imagenes/EcuFac/EJ-5/funcion5.jpg', opciones: ['imagenes/EcuFac/EJ-5/RES-A.jpg', 'imagenes/EcuFac/EJ-5/RES-B.jpg', 'imagenes/EcuFac/EJ-5/RES-C.jpg'], correcta: 1 }
     ];
 
     let currentExercise = 0;
